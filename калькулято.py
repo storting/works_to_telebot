@@ -91,6 +91,6 @@ PlusBlock = Block(root)
 
 
 
-
+# когда нибудь обязательно доделаю :D
 
 root.mainloop()
