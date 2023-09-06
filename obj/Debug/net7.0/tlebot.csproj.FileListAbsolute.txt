@@ -1,0 +1,15 @@
+C:\Users\STORTING\Desktop\tlebot\bin\Debug\net7.0\tlebot.exe
+C:\Users\STORTING\Desktop\tlebot\bin\Debug\net7.0\tlebot.deps.json
+C:\Users\STORTING\Desktop\tlebot\bin\Debug\net7.0\tlebot.runtimeconfig.json
+C:\Users\STORTING\Desktop\tlebot\bin\Debug\net7.0\tlebot.dll
+C:\Users\STORTING\Desktop\tlebot\bin\Debug\net7.0\tlebot.pdb
+C:\Users\STORTING\Desktop\tlebot\obj\Debug\net7.0\tlebot.csproj.AssemblyReference.cache
+C:\Users\STORTING\Desktop\tlebot\obj\Debug\net7.0\tlebot.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\STORTING\Desktop\tlebot\obj\Debug\net7.0\tlebot.AssemblyInfoInputs.cache
+C:\Users\STORTING\Desktop\tlebot\obj\Debug\net7.0\tlebot.AssemblyInfo.cs
+C:\Users\STORTING\Desktop\tlebot\obj\Debug\net7.0\tlebot.csproj.CoreCompileInputs.cache
+C:\Users\STORTING\Desktop\tlebot\obj\Debug\net7.0\tlebot.dll
+C:\Users\STORTING\Desktop\tlebot\obj\Debug\net7.0\refint\tlebot.dll
+C:\Users\STORTING\Desktop\tlebot\obj\Debug\net7.0\tlebot.pdb
+C:\Users\STORTING\Desktop\tlebot\obj\Debug\net7.0\tlebot.genruntimeconfig.cache
+C:\Users\STORTING\Desktop\tlebot\obj\Debug\net7.0\ref\tlebot.dll
