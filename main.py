@@ -2,8 +2,7 @@ import json
 import requests
 import telebot
 from telebot import types
-from aiogram import Bot, Dispatcher, types, executor
-from gtts import gTTS
+
 
 
 
