@@ -45,11 +45,9 @@ class Main_keyboard:
             
         elif msg.text == 'Meme':
             flag = True
-            bot.send_photo(msg.chat.id, 'https://image.winudf.com/v2/image1/Y29tLndhbGxwYXBlci53YWxscGFwZXJzLkFsbE1lbWVzQW5kVHJvbGxTYXJjYXNtUGljc1dhbGxwYXBlcnNhbmRCYWNrZ3JvdW5kc19zY3JlZW5fMTBfMTYwMDEwMTE4Nl8wNzg/screen-6.jpg?fakeurl=1&type=.jpg')
-        
+            bot.send_photo(msg.chat.id, 'https://image.winudf.com/v2/image1/Y29tLndhbGxwYXBlci53YWxscGFwZXJzLkFsbE1lbWVzQW5\
+                                        kVHJvbGxTYXJjYXNtUGljc1dhbGxwYXBlcnNhbmRCYWNrZ3JvdW5kc19zY3JlZW5fMTBfMTYwMDEwMTE4Nl8wNzg/screen-6.jpg?fakeurl=1&type=.jpg')
         elif msg.text == 'Weather':
-            
-            
             bot.send_message(msg.chat.id, 'In what city?')
             global weather 
             weather = 1
@@ -59,12 +57,7 @@ class Main_keyboard:
         global weather 
         global flag
         global API_weather
-
-        
         city = msg.text.strip().lower()
-        print(city)
-        print(API_weather)
-        print(f'https://api.openweathermap.org/data/2.5/weather?q={city}&appid={API_weather}&units=matric')
         res =  requests.get(f'https://api.openweathermap.org/data/2.5/weather?q={city}&appid={API_weather}&units=metric')
         data = json.loads(res.text)
         weather = 0
@@ -91,14 +84,10 @@ def weatherr(msg):
         weather += 1
     if weather == 3:
         Main_keyboard(msg).get_weather(msg)
-    
-    
-    
     flag = False   
 
 @bot.message_handler(content_types=['photo', 'text'])
 def reply(msg):
-    
     global flag
     Main_keyboard(msg)
     if flag == False:
@@ -110,6 +99,7 @@ def reply(msg):
     bot.send_message(msg.chat.id)
     Main_keyboard(msg)
     
+
 
 bot.polling(none_stop=True)
 
